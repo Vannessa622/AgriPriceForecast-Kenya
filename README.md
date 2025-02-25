@@ -1,2 +1,2 @@
-![The Header](Data/Group%207.jpg)
+![The Header](Data/Group7.jpg)
 
