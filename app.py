@@ -14,29 +14,6 @@ import logging
 import os
 from tensorflow.keras.models import load_model
 
-# Setup logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-# Load trained model and scaler
-logger.info("Starting app initialization")
-model_file = "lstm_forecasting_model.h5"
-if not os.path.exists(model_file):
-    logger.error(f"Model file '{model_file}' not found in {os.getcwd()}")
-    raise FileNotFoundError(f"Model file '{model_file}' not found")
-logger.info(f"Found model file at {os.path.abspath(model_file)}")
-
-try:
-    model = load_model(model_file)
-    logger.info("Model loaded successfully")
-except Exception as e:
-    logger.error(f"Failed to load model: {str(e)}")
-    raise
-
-# ... (rest of your code)
-
-
-
 # Load trained model and scaler
 model = load_model("lstm_forecasting_model.h5")
 scaler = joblib.load("scaler.pkl")  # Load the saved scaler
