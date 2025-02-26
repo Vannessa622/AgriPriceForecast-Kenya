@@ -13,6 +13,7 @@ AgriPriceForecast Kenya is a comprehensive data science project that leverages a
 * Sentiment Analysis
 * Usage
 * Tableau Dashboard
+* Presentation Link
 
 AgriPriceForecast Kenya is designed to analyze historical agricultural market data and forecast future commodity prices using advanced machine learning models. The project also incorporates sentiment analysis from social media to capture public perceptions that influence market behavior. Through these combined approaches, the system delivers insights that help in market planning, price stabilization, and informed decision-making for all stakeholders in Kenya's agricultural sector.
 
@@ -99,3 +100,6 @@ install cleanrequirements.txt to install all the libraries necessary for this pr
 
 ## Tableau Dashboard
 https://public.tableau.com/views/AGRI-FORECASTKENYA/AGRI-FORECASTKENYA_?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+## Presentation Link
+https://www.canva.com/design/DAGf7JD8JVE/2Qelp8xHpliZS5yPECGc7Q/view?utm_content=DAGf7JD8JVE&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel&continue_in_browser=true#2
